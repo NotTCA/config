@@ -1,0 +1,16 @@
+[time]
+disabled = false
+format = '[\[ $time \]]($style) '
+time_format = "%T"
+
+[nodejs]
+disabled = true
+
+[battery]
+disabled = true
+
+[package]
+disabled = true
+
+[git_branch]
+symbol = "🌱 "

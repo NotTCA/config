@@ -3,6 +3,10 @@ disabled = false
 format = '[\[ $time \]]($style) '
 time_format = "%T"
 
+[cmd_duration]
+min_time = 500
+format = "took [$duration](bold yellow)"
+
 [nodejs]
 disabled = true
 
@@ -14,3 +18,9 @@ disabled = true
 
 [git_branch]
 symbol = "🌱 "
+
+[git_status]
+disabled = true
+
+[lua]
+disabled = true

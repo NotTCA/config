@@ -7,6 +7,9 @@ time_format = "%T"
 min_time = 500
 format = "took [$duration](bold yellow)"
 
+[git_branch]
+symbol = "🌱 "
+
 [nodejs]
 disabled = true
 
@@ -16,11 +19,11 @@ disabled = true
 [package]
 disabled = true
 
-[git_branch]
-symbol = "🌱 "
-
 [git_status]
 disabled = true
 
 [lua]
 disabled = true
+
+[git_metrics]
+disabled = false
